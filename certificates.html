@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Barangay Rosary Heights IV</title>
+
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+    <!--Local CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <!--Bootstrap 5 CSS & JS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</head>
+    <body>
+    
+    <div style="min-height: 100vh"> 
+    <!--Header-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-secondary">
+            <div class="container">
+                <div class="col-6 col-sm-4">
+                    <a class="navbar-brand" href="index.html"><img class="logo img-fluid mb-2" src="img/logo-1.png" alt="RH IV Logo"></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                    <a class="nav-link p-3" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle p-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="history.html">History</a></li>
+                            <li><a class="dropdown-item" href="officials.html">Officials</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle p-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            News
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="projects-activities.html">Projects & Activities</a></li>
+                            <li><a class="dropdown-item" href="accomplishments.html">Accomplishments</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle p-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="login.html">Certificates</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-3" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Main Content-->
+    <main>
+        <section class="inquiry">
+            <div class="container-fluid" style="background-color: #a3162e">
+                <h1 class="display-5 fw-bold p-3 mb-4 text-center" style="color: #ffffff">DOCUMENT REQUEST</h1>
+            </div>
+            <div class="col-md-10 mx-auto col-lg-4 mb-5 p-2">
+                <form class="p-4 p-md-5 border rounded-3 bg-light needs-validation" novalidate>
+                    <div class="mb-3">
+                        <label for="reqtype" class="mb-2">Request Type:</label>
+                        <select class="form-select" id="reqtype" name="reqtype">
+                        <option value="1"> &nbsp </option>
+                        <option value="2">Barangay Certificate</option>
+                        <option value="3">Barangay ID</option>
+                    </select>   
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="address" rows="5" name="address" placeholder="Purpose of request" required></textarea>
+                    </div>
+                    <div class="text-center mt-5">
+                        <button class="w-50 btn btn-lg btn-primary" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    </div>
+
+    <!--Footer-->
+    <div class="container-fluid bg-body-secondary">
+        <div class="container">
+          <footer class="py-2 my-2">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+              <li class="nav-item"><a href="history.html" class="nav-link px-2 text-muted">History</a></li>
+              <li class="nav-item"><a href="officials.html" class="nav-link px-2 text-muted">Officials</a></li>
+              <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact Us</a></li>
+            </ul>
+            <p class="text-center text-muted">© 2023 Barangay Rosary Heights IV</p>
+          </footer>
+        </div>
+      </div>
+
+</body>
+</html>
